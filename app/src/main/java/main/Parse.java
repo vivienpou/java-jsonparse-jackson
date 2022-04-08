@@ -1,3 +1,5 @@
+package main;
+
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -6,7 +8,7 @@ import java.io.IOException;
 
 public class Parse {
 
-    private final static String JSON_WEATHER_PATH = "weather.json";
+    private final static String JSON_WEATHER_PATH = "src/main/resources/weather.json";
 
     public static void main(String[] args) {
         ObjectMapper objectMapper = new ObjectMapper();

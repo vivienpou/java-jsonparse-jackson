@@ -1,3 +1,5 @@
+package main;
+
 public class Weather {
 
     private Long id;
